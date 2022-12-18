@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Elijel De La Cruz</title>
+	
+	<!-- Link to Bootstrap Stylesheet-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+	<!-- Link to My Stylesheet-->
+	<link rel="stylesheet" href="css/CA2.css">
+
+	<!-- fontaesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+	<!-- slick -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- Nav -->
+	<nav class="navbar navbar-expand-lg urgent fixed-top">
+		<div class="container-fluid">
+			<a class="navbar-brand ml-5" href="#Home">Elijel</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+					<li class="nav-item">
+						<a id="nav" class="nav-link" href="#Education">Education</a>
+					</li>
+					<li class="nav-item">
+						<a id="nav" class="nav-link" href="#Projects">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a id="nav" class="nav-link" href="#Placements">Placements</a>
+					</li>
+					<li class="nav-item">
+						<a id="nav" class="nav-link" href="#Interests">Interests</a>
+					</li>
+					<li class="nav-item">
+						<a id="nav" class="nav-link" href="#Hobbies">Hobbies</a>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<button id="contact" type="button" class="btn btn-outline-light rounded-pill" button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contacts"href="#Contact">Contact Me</button>
+				<div class="modal fade" id="contacts" tabindex="-1" aria-labelledby="contacts" aria-hidden="true">
+					<div class="modal-dialog">
+					  	<div class="modal-content">
+							<div class="modal-header">
+								<h1 class="modal-title fs-5" id="contacts">Reach Out!</h1>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+							<div class="modal-body">
+								<form>
+									<div class="mb-3">
+									<label for="recipient-name" class="col-form-label">Your Email:</label>
+									<input type="text" class="form-control" id="recipient-name">
+									</div>
+									<div class="mb-3">
+									<label for="message-text" class="col-form-label">Message:</label>
+									<textarea class="form-control" id="message-text"></textarea>
+									</div>
+								</form>
+							</div>
+								<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">Send</button>
+							</div>
+					  	</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+</head>
+
+<body data-spy="scroll" data-target="#navbar-main">
+	<div data-spy="scroll" data-target="#navbar-main" data-offset="0">
+		<main class="main">
+
+			<!--Home Page-->
+			<section id="Home" class="eli">
+					<br><br><br><br><br><br><br>
+						<header class="header">
+							<div class="details">
+							<img src="images/1603586951204.jpg" alt="John Doe" class="profile-pic">
+							<br><br><br>
+							<h1 class="name">My name is Elijel De La Cruz.</h1>
+							<br>
+							<h1 class="desc">Software Developing Student</h1>
+							<br>
+							<div class="location">
+								<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+									<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12 ,2Z"></path>
+								</svg>
+								<p>Dublin, Ireland</p>
+							</div>
+							<br><br><br>
+							<div class="row">
+								<div class="col-md-6 pb-3">
+									<h4>Email: Elijel.DelaCruz@gmail.com</h4>
+								</div>
+								<div class="col-md-6 pb-3">
+									<h4>Phone:</h4>
+									<h4>+353 834488018</h4>
+								</div>
+							</div>
+						</header>
+					<br><br><br><br>
+			</section>
+
+			<!-- Education page -->
+			<section id="Education" class="pt-5 pb-5 edu">
+				<div class="container pt-5 pb-5">
+					<br>
+					<h1 class="educationH">Education</h1>
+					<br>
+					<div class="row education">
+						<div class="card col-md-5 pl-5 pb-3 text-center">
+							<img class="card-img-top pt-2 rounded edup" src="images/education/tallaght.jpg">
+							<div class="card-body">
+								<h3>Technological University Dublin</h3>
+								<p>Honours Bsc in Computing with Software Development</p>
+								<br>
+								<h3>Grades (1st-3rd Year)</h3>
+								<ul>
+								<p>1st Year GPA: 3.36</p>
+								<p>2nd Year GPA: 3.48</p>
+								<p>3rd Year GPA: 2.98</p>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-1"></div>
+						<div class="card col-md-5 ml-5 pb-3 text-center">
+							<img class="card-img-top rounded pt-2 edup" src="images/education/beneavin.jpg">
+							<div class="card-body">
+								<h3>Beneavin De La Salle College</h3>
+							<p>Junior and Leaving Certificates</p>
+							<br>
+							<h3>Grades</h3>
+							<ul>
+							<p>Junior Certificate: PASS</p>
+							<p>Leaving Certificate: 413 Points</p>
+							</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Projects page -->
+			<section id="Projects" class="pt-5 pb-5 pro">
+				<div class="container pt-5">
+					<br>
+					<h1 class="projectH">Projects</h1>
+					<br>
+						<div id="projectcaro" class="carousel carousel-light slide" data-bs-ride="carousel">
+							<div class="carousel-indicators">
+							  <button type="button" data-bs-target="#projectcaro" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							  <button type="button" data-bs-target="#projectcaro" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							  <button type="button" data-bs-target="#projectcaro" data-bs-slide-to="2" aria-label="Slide 3"></button>
+							  <button type="button" data-bs-target="#projectcaro" data-bs-slide-to="3" aria-label="Slide 4"></button>
+							  <button type="button" data-bs-target="#projectcaro" data-bs-slide-to="4" aria-label="Slide 5"></button>
+							</div>
+							<div class="carousel-inner">
+							  <div class="carousel-item active" data-bs-interval="10000">
+								<img src="images/projects/1.PNG" class="d-block w-100" id="cpic">
+								<div class="carousel-caption d-none d-md-block">
+								  <h3>TUCinema (2nd Year)</h3>
+								  <h4>This project was a cinema website, which allowed users to book a ticket for the available airing movies, selecting their prefered time, day and location.</h4>
+								</div>
+							  </div>
+							  <div class="carousel-item" data-bs-interval="2000">
+								<img src="images/projects/5.PNG" class="d-block w-100" id="cpic">
+								<div class="carousel-caption d-none d-md-block ">
+								  <h5>TUCinema (2nd Year)</h5>
+								</div>
+							  </div>
+							  <div class="carousel-item">
+								<img src="images/projects/2.PNG" class="d-block w-100" id="cpic">
+								<div class="carousel-caption d-none d-md-block">
+								  <h3>TUPC Parts (2nd Year)</h3>
+								  <h4>This project allowed users to add a review and rating of whatever pc part they chose</h4>
+								</div>
+							  </div>
+							  <div class="carousel-item">
+								<img src="images/projects/3.PNG" class="d-block w-100" id="cpic">
+								<div class="carousel-caption d-none d-md-block ">
+								  <h3>TUPC Parts Shop(2nd Year)</h3>
+								  <h4>This Project allowed users to shop around the pc parts available on website and purchase any product that were available and in stock.</h4>
+								</div>
+							  </div>
+							  <div class="carousel-item">
+								<img src="images/projects/4.PNG" class="d-block w-100" id="cpic">
+								<div class="carousel-caption d-none d-md-block">
+								  <h5>TUPC Parts Shop(2nd Year)</h5>
+								</div>
+							  </div>
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#projectcaro" data-bs-slide="prev">
+							  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							  <span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#projectcaro" data-bs-slide="next">
+							  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+							  <span class="visually-hidden">Next</span>
+							</button>
+						</div>	
+						<br>
+					</div>
+					<br><br><br><br><br><br><br>
+				</div>	
+			</section>
+
+			<!-- Placement page -->
+			<section id="Placements" class="pt-5 pb-5 pla">
+				<div class="container pt-5">
+					<br>
+					<h1 class="placementH">Placements</h1>
+					<div class="row">
+						<div class="col-md-6 pl-5 pb-3">
+							<img class="img-fluid rounded" id="aib" src="images/aib.png">
+						</div>
+						<div class="col-md-6 pb-3">
+						<br><br>
+							<h3 id="aibH" >AIB</h3>
+							<p>Digital Resilience</p>
+							
+							<p><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+								<path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12 ,2Z"></path>
+							</svg> AIB Group, Central Park, Leopardstown, Dublin 18</p>
+							<br>
+							<h3>Tasks</h3>
+							<ul>
+							<li>Ensuring that project workflow within AIB’s delivery lead met certain security standards.</li>
+							<li>Helped out in the development of the JIRA Kanban board to replace the old AIB’s Security Front Door.</li>
+							<li>Assisted with rigorously testing and noting any bugs within AIB’s updated Security Exceptions Environment.</li>
+							<li>Ensuring that Business to Business connections and AIB iRequest tickets met security requirements.</li>
+							<li>Coding in Excel and using Microsoft Office Applications.</li>
+							<li>Putting Vulnerability Scans into actions plans.</li>
+							</ul>
+						<br><br><br><br><br><br><br>
+					</div>
+				</div> 
+			</section>
+
+			<!-- Interests page -->
+			<section id="Interests" class="pt-5 pb-5 int">
+				<div class="container pt-5">
+					<br>
+					<h1 class="interestsH">Interests</h1>
+					<br>
+					<div class="row">
+						<div class="col-md-5">
+							<h3>About Me</h3>
+							<p>I have knowledge in various coding languages such as Python, Java, C#, SQL, HTML, Bootstrap and CSS. Experience communicating with customers and 
+								working with a team. Also have developed different projects in college alone, and with a team. I am very enthuastic and would love to further develop my skills 
+								and to progress within an organization if given the opportunity.  </p>
+							<br>
+							<p id="quote">“Experience is the name everyone gives to their mistakes.” – Oscar Wilde</p>
+						</div>
+						<div class="col-md-1"></div>
+						<div class="col-md-3 pl-5">
+							<div class="col-md">
+								<p id="int">I have great interests in learning design and game development. </p>
+							</div>
+							<div class="col-md-2">
+								<img class="rounded inte" src="images/game.jpg">
+							</div>
+						</div>
+						<div class="col-md-3 pl-5">
+							<div class="col-md-2">
+								<img class="rounded inte" src="images/fs.jpg">
+							</div>
+							<div class="col-md pt-3">
+								<p id="int">I enjoy developing fullstack websites, especially working with frontend development.</p>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="container text-center">
+								<div class="row mb-5 pt-5">
+								  <h3>Knowledgable at Using</h3>
+								</div>
+								<div class="row multiple-items text-center">
+								  <div>
+									<img class="rounded icons" src="images/icons/Python.svg.png">
+								  </div>
+								  <div>
+									<img class="rounded icons" src="images/icons/java-logo-1.png">
+								  </div>
+								  <div>
+									<img class="rounded icons" src="images/icons/javascript-2038874-1720087.webp">
+								  </div>
+								  <div>
+									<img class="rounded icons" src="images/icons/css-3-icon.png">
+								  </div>
+								  <div>
+									<img class="rounded icons" src="images/icons/732212.png">
+								  </div>
+								  <div>
+									<img class="rounded icons" src="images/icons/bootstrap-icon-css.png">
+								  </div>
+								  <div>
+									<img class="rounded icons" src="images/icons/c-sharp-c-icon-456x512-9sej0lrz.png">
+								  </div>
+								</div>
+								<br><br><br>
+							</div>
+						</div>					
+					</div>
+				</div> 
+			</section>
+
+			<!-- Hobbies page -->
+			<section id="Hobbies" class="pt-5 pb-5 edu hob">
+				<div class="container pt-5 pb-5">
+					<br>
+					<h1 class="hobbiesH">Hobbies</h1>
+					<br>
+					<div class="row interest">
+						<div class="col-md-6 pl-5 pb-3" >
+							<div id="hobbiescaro" class="carousel carousel-light slide" data-bs-ride="carousel">
+								<div class="carousel-indicators">
+								  <button type="button" data-bs-target="#hobbiescaro" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+								  <button type="button" data-bs-target="#hobbiescaro" data-bs-slide-to="1" aria-label="Slide 2"></button>
+								  <button type="button" data-bs-target="#hobbiescaro" data-bs-slide-to="2" aria-label="Slide 3"></button>
+								</div>
+								<div class="carousel-inner">
+								  <div class="carousel-item active" data-bs-interval="10000">
+									<img src="images/volleyball/1.jpg" class="d-block" id="intpic">
+								  </div>
+								  <div class="carousel-item" data-bs-interval="2000">
+									<img src="images/volleyball/2.jpg" class="d-block" id="intpic">
+								  </div>
+								  <div class="carousel-item">
+									<img src="images/volleyball/3.jpg" class="d-block" id="intpic">
+								  </div>
+								</div>
+								<button class="carousel-control-prev" type="button" data-bs-target="#hobbiescaro" data-bs-slide="prev">
+								  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								  <span class="visually-hidden">Previous</span>
+								</button>
+								<button class="carousel-control-next" type="button" data-bs-target="#hobbiescaro" data-bs-slide="next">
+								  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+								  <span class="visually-hidden">Next</span>
+								</button>
+							</div>	
+						</div>
+						<div class="col-md-6 pb-3">
+							<h3>Volleyball</h3>
+							<br>
+							<p>• Co-Captain of TUD MENS Team</p>
+							<p>• Starting Setter</p>
+							<p>I've been playing Volleyball for the past 5 years, mainly playing as a setter but I also play
+								opposite as well. Volleyball currently is my main hobby, I train two-three times a week 
+								with my college team. I use to be part of a volleyball club called the Ballymun Patriots, however due to
+								college, I had to give up club volleyball as it would clash with my studies. I love the atmosphere and teamwork
+								element in volleyball, it helps me further enchance my communication skills between team members, as it is key to 
+								winning.
+							</p>
+							<br><br><br>
+						</div>
+					</div>	
+					<div class="row interest">
+						<div class="col-md-6 pb-3">
+							<h3>Travelling</h3>
+							<br>
+							<p>I love travelling from place to place during time off. The calming break allows me to focus more
+								when I get back to do work. I also find it really calming to be able to go to different locations
+								all over the world and see the amazing scenary and learn about the history of the place, by going to
+								tour guides and through reading about it. I also get to create memories that I travelled there,
+								by taking photos of myself at the location, or by taking nice scenic photos. I enjoy socialising
+								and meeting people who live in the destination I am going to, hearing their thoughts and insights on
+								the location I am in.
+							</p>
+						</div>
+						<div class="col-md-6 pl-5 pb-3" >
+							<div id="hobbiescaro2" class="carousel carousel-light slide" data-bs-ride="carousel">
+								<div class="carousel-indicators">
+								  <button type="button" data-bs-target="#hobbiescaro2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+								  <button type="button" data-bs-target="#hobbiescaro2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+								  <button type="button" data-bs-target="#hobbiescaro2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+								  <button type="button" data-bs-target="#hobbiescaro2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+								</div>
+								<div class="carousel-inner">
+									<div class="carousel-item active" data-bs-interval="10000">
+									  <img src="images/travelling/1.webp" class="d-block" id="intpic">
+									  <div class="carousel-caption d-none d-md-block ">
+										<h5>Amsterdam</h5>
+									  </div>
+									</div>
+									<div class="carousel-item" data-bs-interval="2000">
+									  <img src="images/travelling/2.jpg" class="d-block" id="intpic">
+									  <div class="carousel-caption d-none d-md-block ">
+										<h5>Rome</h5>
+									  </div>
+									</div>
+									<div class="carousel-item">
+									  <img src="images/travelling/3.jpg" class="d-block" id="intpic">
+									  <div class="carousel-caption d-none d-md-block ">
+										<h5>Palawan</h5>
+									  </div>
+									</div>
+									<div class="carousel-item">
+									  <img src="images/travelling/4.jpg" class="d-block" id="intpic">
+									  <div class="carousel-caption d-none d-md-block ">
+										<h5>London Chinatown</h5>
+									  </div>
+									</div>
+								</div>
+								<button class="carousel-control-prev" type="button" data-bs-target="#hobbiescaro2" data-bs-slide="prev">
+								  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								  <span class="visually-hidden">Previous</span>
+								</button>
+								<button class="carousel-control-next" type="button" data-bs-target="#hobbiescaro2" data-bs-slide="next">
+								  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+								  <span class="visually-hidden">Next</span>
+								</button>
+							</div>	
+						</div>
+						<br><br><br>
+					</div>
+				</div>
+			</div>
+			</section>
+		</main>
+	</div> 
+	<footer class="text-center pb-3 pt-3">
+        <b> IMD CA 2 Project Desiged by Elijel De La Cruz - X00161872</b>
+    </footer>
+</body>
+
+<!-- My Scripts  -->
+<script src="scripts/CA2.js"></script>  
+<script>
+		$('.multiple-items').slick({
+		  dots: true,
+		  infinite: true,
+		  arrows: false,
+		  autoplay: true,
+		  autoplaySpeed: 2000,
+		  slidesToShow: 5,
+		  slidesToScroll: 2,
+		  responsive: [{
+			  breakpoint: 1024,
+			  settings: {
+				slidesToShow: 3,
+				slidesToScroll: 1,
+			  }
+			},
+			{
+			  breakpoint: 600,
+			  settings: {
+				slidesToShow: 2,
+				slidesToScroll: 2
+			  }
+			},
+			{
+			  breakpoint: 480,
+			  settings: {
+				slidesToShow: 3,
+				slidesToScroll: 2,
+			  }
+			}
+		  ]
+		});
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</html>
